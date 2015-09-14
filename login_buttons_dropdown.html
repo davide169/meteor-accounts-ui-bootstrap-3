@@ -93,7 +93,7 @@
 				<a id="forgot-password-link" class="pull-left" >{{i18n 'loginButtonsLoggedOutPasswordService.forgot'}}</a>
 			{{/if}}
 			{{#if showCreateAccountLink}}
-				<a id="signup-link" class="pull-right" >{{i18n 'loginButtonsLoggedOutPasswordService.createAcc'}}</a>
+				<a href="{{pathFor 'signup'}}" id="signup-link" class="pull-right" >{{i18n 'loginButtonsLoggedOutPasswordService.createAcc'}}</a>
 			{{/if}}
 			</div>
 		{{/if}}
